@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Checkout (Demo) | MicB Scientific</title><meta name="description" content="Demo checkout — no order is placed.">
+<meta property="og:title" content="Checkout (Demo) | MicB Scientific"><meta property="og:description" content="Demo checkout — no order is placed.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔭%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css"></head>
+<body data-page="checkout"><a class="sr" href="#main">Skip to content</a><div id="site-header"></div><main id="main">
+<section class="page-head"><div class="container"><div class="crumbs"><a href="index.html">Home</a> / Checkout</div><h1>Checkout (demo)</h1><p>Prototype only — order is not submitted to the store.</p></div></section>
+<div class="container" style="padding:36px 0 72px" id="coWrap"><div class="notice"><strong>Prototype only.</strong> Nothing here is sent to MicB Scientific, no payment is taken and no data is stored.</div>
+<div class="cart-layout" style="padding:0"><form id="coForm" novalidate>
+<div class="field"><label for="n">Full name *</label><input id="n" name="name" autocomplete="name"><div class="err"></div></div>
+<div class="field"><label for="p">Phone number *</label><input id="p" name="phone" type="tel" autocomplete="tel" placeholder="01XXXXXXXXX"><div class="err"></div></div>
+<div class="field"><label for="e">Email (optional)</label><input id="e" name="email" type="email" autocomplete="email"><div class="err"></div></div>
+<div class="field"><label for="a">Delivery address *</label><textarea id="a" name="address" style="min-height:90px"></textarea><div class="err"></div></div>
+<div class="field"><label for="d">District / city *</label><input id="d" name="district"><div class="err"></div></div>
+<div class="field"><label for="nt">Notes (optional)</label><textarea id="nt" name="notes" style="min-height:80px"></textarea></div>
+<fieldset style="border:0;padding:0;margin:0 0 18px"><legend style="font-weight:600;margin-bottom:8px">Payment method (availability to be confirmed)</legend>
+<label class="pay-opt"><input type="radio" name="pay" checked> Cash on Delivery</label><label class="pay-opt"><input type="radio" name="pay"> Mobile Financial Service</label><label class="pay-opt"><input type="radio" name="pay"> Bank / Card</label></fieldset>
+<button class="btn btn-primary btn-lg" type="submit">Submit demo order</button></form>
+<aside class="summary"><h2 style="font-size:1.2rem">Order summary</h2><div id="coItems"></div><div class="row total"><span>Total</span><span id="coTot"></span></div><p class="form-note">Delivery charge: to be confirmed.</p></aside></div></div>
+</main><div id="site-footer"></div>
+<script src="js/config.js"></script><script src="js/data/products.js"></script><script src="js/app.js"></script></body></html>

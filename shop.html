@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop | MicB Scientific</title><meta name="description" content="Browse the demo MicB Scientific catalog: telescopes, binoculars, microscopes, accessories, science kits and collectibles.">
+<meta property="og:title" content="Shop | MicB Scientific"><meta property="og:description" content="Browse the demo MicB Scientific catalog: telescopes, binoculars, microscopes, accessories, science kits and collectibles.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔭%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/style.css"></head>
+<body data-page="shop"><a class="sr" href="#main">Skip to content</a><div id="site-header"></div><main id="main">
+<section class="page-head"><div class="container"><div class="crumbs"><a href="index.html">Home</a> / Shop</div><h1>Shop</h1><p>Demo catalog with placeholder prices.</p></div></section>
+<div class="container shop-layout"><aside class="filters" id="filters" aria-label="Filters">
+<h3>Search</h3><label class="sr" for="q">Search products</label><input id="q" type="search" placeholder="Search name or description">
+<h3>Category</h3><div id="catList"></div>
+<h3>Max price: <span id="maxOut"></span></h3><label class="sr" for="max">Maximum price</label><input id="max" type="range" min="1000" step="500" max="70000">
+<p style="margin:16px 0 0"><button class="btn btn-ghost" id="clr" style="width:100%">Clear filters</button></p></aside>
+<section aria-live="polite"><div class="shop-bar"><span id="count"></span><button class="btn btn-ghost filter-toggle" id="ftoggle">Filters</button><div><label class="sr" for="sort">Sort by</label><select id="sort"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="az">Name: A–Z</option></select></div></div><div id="results"></div></section></div>
+</main><div id="site-footer"></div>
+<script src="js/config.js"></script><script src="js/data/products.js"></script><script src="js/app.js"></script></body></html>

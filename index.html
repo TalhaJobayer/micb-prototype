@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Explore Beyond the Ordinary | MicB Scientific</title>
+    <meta
+      name="description"
+      content="Telescopes, microscopes, astronomy accessories, science kits and tools for curious minds — MicB Scientific prototype."
+    />
+    <meta
+      property="og:title"
+      content="Explore Beyond the Ordinary | MicB Scientific"
+    />
+    <meta
+      property="og:description"
+      content="Telescopes, microscopes, astronomy accessories, science kits and tools for curious minds — MicB Scientific prototype."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔭%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-page="home">
+    <a class="sr" href="#main">Skip to content</a>
+    <div id="site-header"></div>
+    <main id="main">
+      <section class="hero" aria-label="Featured telescope">
+        <div class="container hero-in">
+          <div class="hero-copy">
+            <p class="eyebrow">Explore. Learn. Discover.</p>
+            <h1>Explore Beyond the Ordinary</h1>
+            <p class="lead">
+              Discover telescopes, astronomy essentials, and scientific tools
+              for curious minds.
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-dark btn-lg" href="shop.html">SHOP NOW</a
+              ><a class="btn btn-outline btn-lg" href="shop.html?cat=telescopes"
+                >Explore Astronomy</a
+              >
+            </div>
+            <div class="steps" aria-hidden="true">
+              <span><b>01</b>CHOOSE</span><span><b>02</b>SET UP</span
+              ><span><b>03</b>EXPLORE</span>
+            </div>
+          </div>
+          <div class="hero-media">
+            <img
+              src="assets/images/hero/hero-featured-telescope.jpg"
+              alt="Demo telescope on a tripod with the Moon and Earth's horizon behind it"
+              fetchpriority="high"
+              onerror="micbImgFail(this)"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2>Shop by category</h2>
+              <p>Start with what you want to explore.</p>
+            </div>
+            <a class="btn btn-outline" href="shop.html">View all products</a>
+          </div>
+          <div class="cat-grid" id="catGrid"></div>
+        </div>
+      </section>
+      <section class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2>Featured products</h2>
+              <p>Demo catalog — prices and models are placeholders.</p>
+            </div>
+            <a class="btn btn-outline" href="shop.html">See all</a>
+          </div>
+          <div class="grid" id="featured"></div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2>Not sure where to start?</h2>
+              <p>Beginner guides from the Learning Center (demo articles).</p>
+            </div>
+          </div>
+          <div class="feat-grid">
+            <a class="learn-card" href="learn.html#first-telescope"
+              ><h3>Choosing your first telescope</h3>
+              <span>Read guide →</span></a
+            ><a class="learn-card" href="learn.html#magnification"
+              ><h3>Understanding telescope magnification</h3>
+              <span>Read guide →</span></a
+            ><a class="learn-card" href="learn.html#microscopes"
+              ><h3>Beginner’s guide to microscopes</h3>
+              <span>Read guide →</span></a
+            ><a class="learn-card" href="learn.html#night-sky"
+              ><h3>Exploring the night sky</h3>
+              <span>Read guide →</span></a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <div>
+              <h2>Why MicB Scientific?</h2>
+              <p>Draft messaging — to be approved by the business.</p>
+            </div>
+          </div>
+          <div class="feat-grid">
+            <div class="feat">
+              <div class="ic">🔬</div>
+              <h3>Science for everyone</h3>
+              <p>
+                Making science and astronomy approachable for students,
+                hobbyists and educators.
+              </p>
+            </div>
+            <div class="feat">
+              <div class="ic">🔭</div>
+              <h3>Explore and learn</h3>
+              <p>
+                Equipment and guides that help you start observing and
+                experimenting.
+              </p>
+            </div>
+            <div class="feat">
+              <div class="ic">🧪</div>
+              <h3>Tools for discovery</h3>
+              <p>Telescopes, microscopes, kits and accessories in one place.</p>
+            </div>
+            <div class="feat">
+              <div class="ic">💬</div>
+              <h3>Support for curious minds</h3>
+              <p>
+                Questions? <a href="contact.html">Get in touch</a> and the team
+                can advise.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="newsletter">
+            <div>
+              <h2>Stay curious</h2>
+              <p>Demo form — no real subscription is created.</p>
+            </div>
+            <form id="nlForm" class="inline-form" novalidate>
+              <div class="field" style="flex: 1; margin: 0">
+                <label class="sr" for="nlE">Email address</label
+                ><input
+                  id="nlE"
+                  name="email"
+                  type="email"
+                  placeholder="you@example.com"
+                  autocomplete="email"
+                />
+                <div class="err" style="color: #ffb4a9"></div>
+              </div>
+              <button
+                class="btn btn-primary"
+                style="
+                  background: var(--accent);
+                  color: var(--primary);
+                  align-self: start;
+                "
+              >
+                Subscribe
+              </button>
+              <p
+                class="form-note"
+                style="color: #c5d6ea; width: 100%; margin: 0"
+              >
+                By subscribing you agree to receive updates (demo text).
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="js/config.js "></script>
+    <script src="js/data/products.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
